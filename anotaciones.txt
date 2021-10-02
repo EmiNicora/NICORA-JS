@@ -1,0 +1,94 @@
+
+
+// for(let i = 0; i<=5; i++ ){
+//     let ingresarNombre = prompt('Ingresa 5 personajes');
+//     console.log(" personaje ingresado " + ingresarNombre)
+// }
+
+// Sentencia break
+/*const numero = Number(prompt('Ingrese un numero '))
+
+for(let i = 0; i<=10; i++ )
+{
+    if(i == 5){
+        break;
+    }
+
+    console.log(`${numero} X ${i} = ${numero*i}`)
+    }
+    */
+
+// REVISA ESTE EJEMPLO
+  /*  const numero = Number(prompt('Ingrese un numero '))
+
+for(let i = 1; i<=10; i++ )
+
+console.log(`${numero} X ${i} = ${numero*i}`)
+
+{
+    if(i == 5){
+        cotinue;
+    }
+
+    console.log(`6 X ${i} = ${numero*i}`)
+    }
+    */
+
+
+    // WHILE
+
+    // const numero = 4
+
+// inicio condicion // actualizacion
+/*for (let i = 1; i<=10; i++)
+{
+    console.log(`${numero} X ${i} = ${numero*i}`)
+}
+*/
+// inicio
+// let i = 1;
+// while (i<=10){
+//     console.log(`${numero} X ${i} = ${numero*i}`);
+//     // actualizacion
+//     i++
+// }
+
+
+// for(let i = 0; i<=10; i ++ ){
+//     console.log(`La suma es ${i*7}`)
+// }
+
+
+// DESAFIO
+// let dato = prompt ("Ingrese un dato")
+// do{
+//     console.log("Primera vuelta");
+//     dato = prompt ("Ingrese un dato")
+// }
+// while (dato != "ok")
+
+
+// for (let i = 0; i <=10; i++){
+//     console.log (i*8);
+// }
+
+// FUNCIONES
+
+// function bucle(num, nombre){
+    
+//     for(let i = 0; i <num; i++){
+//         console.log(i)}
+
+//         console.log(" hola " + nombre + " el numero que ingresaste fue " + num)
+//     }
+
+
+// // ejecutar
+// // al ejecutarla (llamar la variable,  el parametro cobra el valor real)
+// bucle(4, "Natalia");
+
+// bucle(2, "Lucas");
+
+// bucle(1, "Bruno");
+
+

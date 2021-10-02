@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<!--Required meta tags-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!--Required meta tags-->
+	<!--CSS-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!--FIN CSS-->
+	<!--Fonts-->
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+	<!--Inicio de SEO-->
+	<meta name="description"
+		content="Magic World es un sitio web dedicado a los fans del mundo de Harry Potter, donde pueden ver peliculas, comprar los libros de la saga y mucho más.">
+	<meta name="keywords"
+		content="Harry Potter, Hogwarts, Potterhead, Gryffindor, Slytherin, Ravenclaw, Hufflepuff, Ron Weasley, Hermione Granger, Voldemort, Dumbledore, JK Rowling, Draco Malfoy, Animales Fantasticos, Reliquias de la muerte">
+	<!--Fin de SEO-->
+	<!--Inicio Open Graph-->
+	<meta property="og:title" content="Magic World">
+	<meta property="og:url" content="http://magicworldoficial.000webhostapp.com/index.html">
+	<meta property="og:imagen" content="http://magicworldoficial.000webhostapp.com/img/WizardingWorld-Logo-White-3.png">
+	<meta property="og:description"
+		content="Magic World es un sitio web dedicado a los fans del mundo de Harry Potter.">
+	<meta property="og:locale" content="es_ES">
+	<!--Fin Open Graph-->
+	<title>Magic World, sitio dedicado a Potterheads</title>
+</head>
+
+<body>
+	<header>
+		<section class="barranegra">
+			<img class="barranegra__tamaño" src="img/WizardingWorld-Logo-White-3.png" alt="Logo wizarding world">
+		</section>
+		<!--Inicio de menú-->
+		<nav class="menu">
+			<div class="menu">
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="peliculas.html">Peliculas</a></li>
+					<li><a href="libros.html">Libros</a></li>
+					<li><a href="atracciones.html">Atracciones</a></li>
+					<li><a href="store.html">Store </a></li>
+					<li><a href="novedades.html"> Novedades</a></li>
+					<li><a href="contacto.html">Unite</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!--Menú responsive-->
+		<nav class="mySidenav">
+			<button class="MenuButton">
+				<a class="closebtn" href="javascript:void(0)" onclick="closeNav()">&times;
+					<ul>
+						<li>
+							<a href="index.html">Inicio</a>
+						</li>
+						<li>
+							<a href="peliculas.html">Peliculas</a>
+						</li>
+						<li>
+							<a href="libros.html">Libros</a>
+						</li>
+						<li>
+							<a href="atracciones.html">Atracciones</a>
+						</li>
+						<li>
+							<a href="store.html">Store</a>
+						</li>
+						<li>
+							<a href="novedades.html">Novedades</a>
+						</li>
+						<li>
+							<a href="contacto.html">Unite</a>
+						</li>
+					</ul>
+				</a>
+			</button>
+		</nav>
+		<span class="span" style="font-size:25px;cursor:pointer; color: #B39048;" onclick="openNav()">&#9776; </span>
+		<!--Fin de menú-->
+	</header>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<main>
+
+		<div>
+			<h1 class="tituloprincipal">Magic World</h1>
+			<p class="parrafoprincipal">Sitio Oficial sobre Harry Potter</p>
+		</div>
+		<section class="fondoprincipal">
+			<video class="video-background" src="img/harrypotter.mp4" preload="" autoplay muted loop></video>
+		</section>
+
+	</main>
+	<!--EMPIEZA FOOTER-->
+	<footer>
+		<div class="piehorizontal">
+			<p><a href="https://www.youtube.com/channel/UChPRO1CB_Hvd0TvKRU62iSQ"><img src="img/youtube.png"
+						alt="logo youtube" class="youtube"></a>
+				<a href="https://www.instagram.com/wizardingworld/"><img src="img/instagram.png" alt=" logo instagram"
+						class="instagram"></a>
+			</p>
+		</div>
+	</footer>
+	<!--TERMINA FOOTER-->
+	<script>
+		function openNav() {
+			document.getElementsByClassName("mySidenav")[0].style.width = "100%";
+		}
+
+		function closeNav() {
+			document.getElementsByClassName("mySidenav")[0].style.width = "0";
+		}
+	</script>
+	<script src="js/app.js"></script>
+
+</body>
+
+</html>
